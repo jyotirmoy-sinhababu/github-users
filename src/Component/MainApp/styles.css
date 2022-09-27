@@ -1,21 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
 .box {
-  display: flex;
-  width: 100%;
-}
-.card-container {
-  display: flex;
-  flex-direction: column;
-  border: solid 1px rgb(60, 58, 58);
-  height: auto;
-  background-color: rgb(239, 214, 182);
-}
-.card-user-data {
-  font-family: 'Fjalla One', sans-serif;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+  background: #ede7f6;
+  padding: 1.5rem;
+  border-radius: 1rem;
   justify-content: center;
+  align-items: center;
 }
+
 .card-img {
   height: 400px;
   width: 400px;
+  border-radius: 44px;
+}
+
+.card-user-data {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Fjalla One', sans-serif;
+  align-items: center;
+  justify-content: center;
+  color: rgb(42, 63, 63);
 }

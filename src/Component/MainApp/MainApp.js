@@ -27,12 +27,7 @@ const MainApp = () => {
           return (
             <div className='card-container'>
               <div className='card-img-container'>
-                <img
-                  className='card-img'
-                  src={user.avatar_url}
-                  alt=''
-                  srcset=''
-                />
+                <img className='card-img' src={user.avatar_url} alt='' />
               </div>
               <div className='card-user-data'>
                 <p>User name: {user.login}</p>
@@ -42,7 +37,7 @@ const MainApp = () => {
           );
         })
       ) : (
-        <h2>No data available</h2>
+        <h2 className='note'>No data available</h2>
       )}
     </div>
   );
