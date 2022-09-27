@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+.nav-cnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85px;
+  background-color: rgb(248, 232, 243);
+  border-radius: 8px;
+}
+
+.nav-heading {
+  font-family: 'Fjalla One', sans-serif;
+}

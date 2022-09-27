@@ -1,9 +1,9 @@
-import React from 'react';
+import './navbar.css';
 
 const NavBar = () => {
   return (
-    <div>
-      <h1>github Users</h1>
+    <div className='nav-cnt'>
+      <h1 className='nav-heading'>github Users</h1>
     </div>
   );
 };
